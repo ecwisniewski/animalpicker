@@ -1,0 +1,19 @@
+body {
+  background-color: #f8fced;
+  font-size:1.1em;
+
+}
+div {
+  /*background-color:#e0f7a6;*/
+  padding-top: 10pt;
+  padding-bottom: 20pt;
+  padding-left: 20pt;
+  margin: auto 10%;
+}
+span {
+  font-size: 1.2em;
+  font-weight:bold;
+}
+.remove {
+  display:none;
+}

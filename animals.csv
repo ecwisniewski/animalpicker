@@ -1,0 +1,7 @@
+Animal,4 legs,2 legs,Does your animal have stripes?,Does your animal have hooves,Does your animal have claws?,Is your animal tan colored?,Can your animal fly?
+Zebra,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+Horse,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE
+White Lion,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+Blue Jay,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE
+Penguin,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+Tiger,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
