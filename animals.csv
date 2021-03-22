@@ -1,7 +1,6 @@
-Animal,4 legs,2 legs,Does your animal have stripes?,Does your animal have hooves,Does your animal have claws?,Is your animal tan colored?,Can your animal fly?
-Zebra,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
-Horse,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE
-White Lion,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
-Blue Jay,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE
-Penguin,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
-Tiger,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE
+Image,Animal,4 legs,2 legs,Does your animal have stripes?,Is your animal tan colored?,Can your animal fly?
+https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fjamiecartereurope%2Ffiles%2F2019%2F02%2F1-2-1200x675.jpg,Zebra,TRUE,FALSE,TRUE,FALSE,FALSE
+https://a0.muscache.com/pictures/5a717e3f-24d8-422a-b637-4132fa78b240.jpg,Horse,TRUE,FALSE,FALSE,TRUE,FALSE
+https://lh3.googleusercontent.com/8ZSvXTwSc_70SXr97Ere25BrCa4fVj7EMofEvdrdaisGXN-U61zZOK2F6qXNXYE4e6py2yUS5igTibtx_7ViwBha=w640-h400-e365-rj-sc0x00ffffff,White Lion,TRUE,FALSE,FALSE,FALSE,FALSE
+https://cdn.download.ams.birds.cornell.edu/api/v1/asset/302355171/1800,Blue Jay,FALSE,TRUE,FALSE,FALSE,TRUE
+https://storage.googleapis.com/oceanwide_web/media-dynamic/cache/widen_1600/media/default/0001/05/30627f237982b80399f5d2db0c8daeeea38a5950.jpeg,Penguin,FALSE,TRUE,FALSE,FALSE,FALSE
