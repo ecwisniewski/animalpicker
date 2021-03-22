@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Animal Classifying Website</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
 
-    <input type="file" id="uploadfile" onChange="readImage(this)">
-  <div class="">
+<head>
+  <meta charset="utf-8">
+  <title>Animal Classifying Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <input type="file" id="uploadfile" onChange="readImage(this)">
+  <div class="main">
 
 
     <h1>Hello World!</h1>
     <h3>Welcome to our animal classifying program! <br>
-       We hope that you find the animal you were looking for!<br><br>
-    Pick an animal from the list and start to think about the
-    characteristics that it has.</h3>
-    <!----<img src="https://media.giphy.com/media/otnqsqqzmsw7K/giphy.gif" alt="penguins giphy.com">
-    --->
+      We hope that you find the animal you were looking for!<br><br>
+      Pick an animal from the list and start to think about the
+      characteristics that it has.</h3>
+    <div class="images">
+      <!---<img src="" alt="">--->
+    </div>
     <p class="animal_list">
       <span>Animals:</span>
-      </p>
+    </p>
 
     <form class="questions" action="javascript:void(0);">
       <label for="question">Answer some questions:</label>
@@ -34,10 +37,14 @@
     <h2 class="remove animal_output">We couldn't find your animal :(</h2>
     <form class="remove return" action="javascript:void(0);">
       <input type="submit" name="send" value="Try Again">
-      </form>
+    </form>
+    <div class="final_image">
+      <!---<img src="" alt="">--->
 
+    </div>
 
-      </div>
-    <script src="index.js" charset="utf-8"></script>
-  </body>
+  </div>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
 </html>

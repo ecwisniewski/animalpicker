@@ -3,7 +3,7 @@ body {
   font-size:1.1em;
 
 }
-div {
+.main {
   /*background-color:#e0f7a6;*/
   padding-top: 10pt;
   padding-bottom: 20pt;
@@ -14,6 +14,13 @@ span {
   font-size: 1.2em;
   font-weight:bold;
 }
+img {
+  padding-right: 10pt;
+  height: 100px;
+}
 .remove {
   display:none;
+}
+.final_image {
+  height: 300px;
 }

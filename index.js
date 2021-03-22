@@ -6,6 +6,8 @@ var animal_classification = {};
 var animal_list = [];
 var questions = [];
 var csvData = [];
+
+
 // Read Excel
 var obj_csv = {
     size:0,
@@ -57,10 +59,10 @@ function parseData(data){
 
 function createQuestions(csvData) {
   // Questions:
-  for(var i = 0; i<csvData[0].length-3;i++)
+  for(var i = 0; i<csvData[0].length-4;i++)
   {
     //console.log(csvData[0][i+3])
-    questions[i] = csvData[0][i+3];
+    questions[i] = csvData[0][i+4];
   }
   //console.log(questions);
 }
@@ -69,25 +71,26 @@ function createDictionary(csvData) {
 
   for(var i=1; i<csvData.length; i++) {
     //console.log(csvData[i][0]);
-    var animal = csvData[i][0];
+    var animal = csvData[i][1];
     var features = [];
-    for(var j=1; j<csvData[i].length; j++) {
+    for(var j=2; j<csvData[i].length; j++) {
 
       //console.log(csvData[i][j].toLowerCase());
       if(csvData[i][j].toLowerCase().replace("\r","") == "true"){
-        features[j-1] = true;
+        features[j-2] = true;
       }
       else {
-        features[j-1] = false;
+        features[j-2] = false;
       }
     }
     //console.log(features);
-    if(csvData[i][0]!="") {
+    if(csvData[i][1]!="") {
       animal_list[i]=animal;
       animal_classification[animal] = features;
     }
   }
   printAnimalList();
+  printImageList();
   //animal_classification=dict;
   //console.log(animal_classification);
 }
@@ -101,7 +104,13 @@ function printAnimalList() {
   console.log(list);
   document.querySelector(".animal_list").innerHTML = list;
 }
-
+function printImageList() {
+  var animal_images = "";
+  for(var i = 1; i<csvData.length; i++) {
+    animal_images = animal_images + "<img src=\"" + csvData[i][0] + "\">";
+  }
+  document.querySelector(".images").innerHTML= animal_images;
+}
 function askQuestion(question,val) {
   var result;
   var questions_form = document.querySelector(".questions");
